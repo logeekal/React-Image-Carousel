@@ -1,0 +1,50 @@
+{
+	"name": "responsive-react-image-carousel",
+	"version": "0.3.0",
+	"description": "This is an elegant and responsive image carousel for react with very minimal dependencies and small footprint",
+	"main": "build/index.js",
+	"peerDependencies": {
+		"react": ">=16"
+	},
+	"scripts": {
+		"test": "echo \"Error: no test specified\" && exit 1",
+		"start": "webpack --watch",
+		"build": "webpack"
+	},
+	"keywords": [
+		"react image carousel",
+		"image carousel for react",
+		"carousel",
+		"react",
+		"image",
+		"responsive",
+		"slideshow",
+		"gallery",
+		"image gallery"
+	],
+	"author": {
+		"name": "Jatin Kathuria",
+		"email": "jtn.kathuria@gmail.com"
+	},
+	"license": "ISC",
+	"dependencies": {
+		"webpack": "^4.42.1",
+		"@types/prop-types": "15.7.3",
+		"babel-cli": "^6.26.0",
+		"mini-debounce": "1.0.7",
+		"node-sass": "^4.13.1",
+		"prop-types": "15.7.2"
+	},
+	"devDependencies": {
+		"babel-cli": "^6.26.0",
+		"babel-core": "^6.26.3",
+		"babel-loader": "^8.1.0",
+		"babel-plugin-transform-object-rest-spread": "^6.26.0",
+		"babel-plugin-transform-react-jsx": "^6.24.1",
+		"babel-preset-env": "^1.7.0",
+		"css-loader": "^3.4.2",
+		"sass-loader": "^8.0.2",
+		"style-loader": "^1.1.3",
+		"webpack-cli": "^3.3.11"
+	}
+}
