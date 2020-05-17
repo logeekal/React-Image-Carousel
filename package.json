@@ -6,8 +6,11 @@
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1",
     "start": "webpack-dev-server --mode development --open  --config webpack.demo.config.js",
-    "build": "webpack --config webpack.lib.config.js"
+    "build:npm": "webpack --config webpack.lib.config.js",
+    "build:demo": "webpack --config webpack.demo.config.js",
+    "deploy": "gh-pages -d dist"
   },
+  "homepage": "https://logeekal.github.com/react-image-carousel",
   "keywords": [
     "react image carousel",
     "image carousel for react",
@@ -25,6 +28,11 @@
   },
   "license": "ISC",
   "dependencies": {
+<<<<<<< HEAD
+=======
+    "gh-pages": "^2.2.0",
+    "global": "^4.4.0",
+>>>>>>> Incremental Change
     "mini-debounce": "1.0.7",
     "node-sass": "^4.13.1",
     "prop-types": "15.7.2",
@@ -38,6 +46,10 @@
     "@babel/preset-react": "^7.9.4",
     "babel-loader": "^8.1.0",
     "css-loader": "^3.4.2",
+<<<<<<< HEAD
+=======
+    "gh-pages": "^2.2.0",
+>>>>>>> Incremental Change
     "html-webpack-plugin": "^4.3.0",
     "react": "^16.13.1",
     "react-dom": "^16.13.1",
