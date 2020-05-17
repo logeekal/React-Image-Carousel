@@ -1,4 +1,3 @@
-import Caraousel from "./caraousel/caraousel.jsx";
+import Carousel from "./caraousel/caraousel";
 
-const Carousel = Caraousel;
 export default Carousel;
