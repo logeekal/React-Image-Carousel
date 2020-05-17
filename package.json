@@ -28,11 +28,7 @@
   },
   "license": "ISC",
   "dependencies": {
-<<<<<<< HEAD
-=======
     "gh-pages": "^2.2.0",
-    "global": "^4.4.0",
->>>>>>> Incremental Change
     "mini-debounce": "1.0.7",
     "node-sass": "^4.13.1",
     "prop-types": "15.7.2",
@@ -46,10 +42,7 @@
     "@babel/preset-react": "^7.9.4",
     "babel-loader": "^8.1.0",
     "css-loader": "^3.4.2",
-<<<<<<< HEAD
-=======
     "gh-pages": "^2.2.0",
->>>>>>> Incremental Change
     "html-webpack-plugin": "^4.3.0",
     "react": "^16.13.1",
     "react-dom": "^16.13.1",
