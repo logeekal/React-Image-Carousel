@@ -1,11 +1,16 @@
 const path = require("path");
-const HTMLPlugin = require("html-webpack-plugin");
 module.exports = {
-  entry: "./src/index.js",
+  entry: "./src/index",
   output: {
-    path: path.resolve(__dirname, "lib"),
+    path: path.resolve(__dirname, "./lib"),
     filename: "index.js",
+    publicPath: "/",
+    libraryTarget: "commonjs2",
   },
+  resolve: {
+    extensions: [".js", ".jsx"],
+  },
+
   module: {
     rules: [
       {
@@ -15,11 +20,8 @@ module.exports = {
         use: {
           loader: "babel-loader",
           options: {
-            presets: ["@babel/preset-env", "@babel/preset-react"],
+            presets: ["@babel/env", "@babel/react"],
           },
-        },
-        resolve: {
-          extensions: [".js", ".jsx"],
         },
       },
       {
@@ -28,4 +30,7 @@ module.exports = {
       },
     ],
   },
+  "externals": {
+    "react": "commonjs2 react"
+  }
 };
