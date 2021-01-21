@@ -14,10 +14,10 @@ const useRect = () => {
   useEffect(() => {
     setRectWrapper();
     let debouncedSetRect = debounce(setRectWrapper, 500);
-    window.addEventListener("resize", debouncedSetRect);
+    window && window.addEventListener("resize", debouncedSetRect);
 
     return () => {
-      window.removeEventListener("resize", debouncedSetRect);
+      window && window.removeEventListener("resize", debouncedSetRect);
     };
   }, []);
 
