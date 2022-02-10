@@ -34,7 +34,7 @@
     "@babel/plugin-transform-react-jsx": "^7.9.4",
     "gh-pages": "^2.2.0",
     "mini-debounce": "1.0.7",
-    "node-sass": "^4.13.1",
+    "node-sass": "^7.0.0",
     "prop-types": "15.7.2"
   },
   "devDependencies": {
